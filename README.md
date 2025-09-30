@@ -1,5 +1,5 @@
-Carpet Calculator
-Overview
+**Carpet Calculator**
+<h1>Overview<\h1>
 This Java application models rooms and carpets, calculates the total carpet cost for each room, and demonstrates object-oriented principles such as cloning, equality, hashing, and ordering using the Comparable interface.
 
 Classes
