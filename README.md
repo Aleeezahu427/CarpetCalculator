@@ -3,11 +3,14 @@
 This Java application models rooms and carpets, calculates the total carpet cost for each room, and demonstrates object-oriented principles such as cloning, equality, hashing, and ordering using the Comparable interface.
 <h4>Classes</h4>
 <h5>RoomDimension</h5>
-- Represents a room's dimensions with length and width.
-- Calculates the area of the room.
-- Implements Comparable<RoomDimension> to compare rooms by area.
-- Supports cloning and equality based on dimensions.
-- Provides a custom hashCode() and a descriptive toString().
+<ul>
+<li>Represents a room's dimensions with length and width.</li>
+<li>Calculates the area of the room.</li>
+<li>Implements Comparable&lt;RoomDimension&gt; to compare rooms by area.</li>
+<li>Supports cloning and equality based on dimensions.</li>
+<li>Provides a custom hashCode() and a descriptive toString().</li>
+</ul>
+
 <h5>RoomCarpet</h5>
 - Represents a carpet for a room, storing a RoomDimension and carpet cost per unit area.
 - Calculates total carpet cost (area * carpetCost).
